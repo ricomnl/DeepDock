@@ -19,7 +19,7 @@ torch-scatter = {url = "https://data.pyg.org/whl/torch-1.4.0/torch_scatter-2.0.4
 torch-sparse = {url = "https://data.pyg.org/whl/torch-1.4.0/torch_sparse-0.6.1%2Bcu101-cp37-cp37m-linux_x86_64.whl"}
 torch-cluster = {url = "https://data.pyg.org/whl/torch-1.4.0/torch_cluster-1.5.3%2Bcu101-cp37-cp37m-linux_x86_64.whl"}
 torch-spline-conv = {url = "https://data.pyg.org/whl/torch-1.4.0/torch_spline_conv-1.2.0%2Bcu101-cp37-cp37m-linux_x86_64.whl"}
-deepdock = { path = "../DeepDock/", develop = true }
+DeepDock = { path = "../DeepDock/", develop = true }
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.7.0"
